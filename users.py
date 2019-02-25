@@ -18,7 +18,7 @@ class User:
         input_password = input("Enter Password: ")
 
         if input_email == self.email and input_password == self.password:
-            self.login_status= True
+            self.login_status = True
             print("Login successful")
             self.user_profile()
         else:
